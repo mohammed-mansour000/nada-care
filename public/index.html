@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nada Care – عناية صحية متكاملة للنساء</title>
+    <meta
+      name="description"
+      content="Nada Care – عناية صحية متكاملة للنساء مع أ. ندى عبد المنعم أبو حيط. حجامة، مساج، عناية بالبشرة، استشارات أسرية."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&family=Playfair+Display:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#" class="nav-logo">
+          <span class="logo-mark">✦</span>
+          <span>Nada Care</span>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="القائمة">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#services">خدماتنا</a></li>
+          <li><a href="#features">مميزاتنا</a></li>
+          <li><a href="#about">عن الأخصائية</a></li>
+          <li><a href="#contact">تواصلي معنا</a></li>
+          <li><a href="#contact" class="btn btn-sm">احجزي الآن</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-blob blob-1"></div>
+      <div class="hero-bg-blob blob-2"></div>
+      <div class="hero-container">
+        <div class="hero-text fade-in">
+          <p class="hero-eyebrow">مرحباً بكِ في</p>
+          <h1 class="hero-title">Nada Care</h1>
+          <p class="hero-subtitle">عناية صحية متكاملة للنساء</p>
+          <p class="hero-doctor">أ. ندى عبد المنعم أبو حيط</p>
+          <p class="hero-tagline">
+            خبرة عشر سنوات في صحة المرأة والعناية الشاملة
+          </p>
+          <div class="hero-actions">
+            <a
+              href="https://wa.me/96179183766"
+              target="_blank"
+              class="btn btn-primary"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+                />
+              </svg>
+              احجزي الآن
+            </a>
+            <a href="#services" class="btn btn-outline">اكتشفي خدماتنا</a>
+          </div>
+          <div class="hero-badges">
+            <span class="badge"
+              ><span class="badge-icon">✦</span> خبرة 10 سنوات</span
+            >
+            <span class="badge"
+              ><span class="badge-icon">✦</span> نظافة وتعقيم</span
+            >
+            <span class="badge"
+              ><span class="badge-icon">✦</span> أدوات آمنة</span
+            >
+          </div>
+        </div>
+        <div class="hero-image-wrap fade-in delay-2">
+          <div class="hero-image-ring"></div>
+          <div class="hero-image-ring ring-2"></div>
+          <img
+            src="nada_care_hero.png"
+            alt="أخصائية Nada Care"
+            class="hero-img"
+            onerror="
+              this.style.display = 'none';
+              this.nextElementSibling.style.display = 'flex';
+            "
+          />
+          <div class="hero-img-fallback">
+            <div class="hero-avatar">
+              <svg
+                viewBox="0 0 200 240"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <!-- lab coat body -->
+                <rect
+                  x="40"
+                  y="130"
+                  width="120"
+                  height="110"
+                  rx="10"
+                  fill="#fff"
+                  stroke="#f0c4c4"
+                  stroke-width="2"
+                />
+                <!-- coat lapels -->
+                <path d="M100 140 L75 180 L100 175 L125 180 Z" fill="#f8d7d7" />
+                <!-- head -->
+                <ellipse cx="100" cy="85" rx="38" ry="40" fill="#f5c5a3" />
+                <!-- hijab -->
+                <path
+                  d="M62 80 Q65 45 100 42 Q135 45 138 80 Q138 120 125 128 Q100 138 75 128 Q62 120 62 80Z"
+                  fill="#c9a98a"
+                />
+                <!-- hijab inner -->
+                <ellipse cx="100" cy="105" rx="28" ry="25" fill="#f5c5a3" />
+                <!-- eyes -->
+                <ellipse cx="88" cy="88" rx="4" ry="5" fill="#5c3d2e" />
+                <ellipse cx="112" cy="88" rx="4" ry="5" fill="#5c3d2e" />
+                <!-- smile -->
+                <path
+                  d="M90 102 Q100 110 110 102"
+                  stroke="#c97b7b"
+                  stroke-width="2"
+                  fill="none"
+                  stroke-linecap="round"
+                />
+                <!-- hands holding bottles -->
+                <rect
+                  x="55"
+                  y="185"
+                  width="18"
+                  height="32"
+                  rx="9"
+                  fill="#c5e8d4"
+                  stroke="#9dc4b0"
+                  stroke-width="1.5"
+                />
+                <rect
+                  x="78"
+                  y="180"
+                  width="15"
+                  height="28"
+                  rx="7"
+                  fill="#ffd6d6"
+                  stroke="#f0a0a0"
+                  stroke-width="1.5"
+                />
+                <rect
+                  x="107"
+                  y="182"
+                  width="15"
+                  height="30"
+                  rx="7"
+                  fill="#c5e8d4"
+                  stroke="#9dc4b0"
+                  stroke-width="1.5"
+                />
+                <rect
+                  x="128"
+                  y="186"
+                  width="18"
+                  height="32"
+                  rx="9"
+                  fill="#ffd6d6"
+                  stroke="#f0a0a0"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="floating-card card-a">
+            <span>⭐ 5.0</span>
+            <small>تقييم العملاء</small>
+          </div>
+          <div class="floating-card card-b">
+            <span>💆‍♀️ +500</span>
+            <small>عميلة سعيدة</small>
+          </div>
+        </div>
+      </div>
+      <div class="hero-wave">
+        <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+          <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#fff" />
+        </svg>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p class="section-eyebrow">ما نقدمه</p>
+          <h2 class="section-title">خدماتنا</h2>
+          <p class="section-desc">
+            نقدم لكِ باقة متكاملة من الخدمات الصحية والتجميلية في بيئة آمنة
+            ومريحة
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card fade-in">
+            <div
+              class="service-icon-wrap"
+              style="--icon-color: #f4a0a0; --icon-bg: #fff0f0"
+            >
+              <svg viewBox="0 0 48 48" fill="none">
+                <circle
+                  cx="24"
+                  cy="24"
+                  r="22"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M16 24 Q20 14 24 24 Q28 34 32 24"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  fill="none"
+                />
+                <circle cx="24" cy="24" r="3" fill="currentColor" />
+              </svg>
+            </div>
+            <h3>الحجامة بأنواعها</h3>
+            <p>علاجية · وقائية · تجميلية</p>
+            <ul class="service-list">
+              <li>✦ حجامة رطبة وجافة</li>
+              <li>✦ حجامة تجميلية للوجه</li>
+              <li>✦ بروتوكولات معتمدة</li>
+            </ul>
+          </div>
+
+          <div class="service-card fade-in delay-1">
+            <div
+              class="service-icon-wrap"
+              style="--icon-color: #c9a98a; --icon-bg: #fdf5ef"
+            >
+              <svg viewBox="0 0 48 48" fill="none">
+                <path
+                  d="M12 36 C12 28 18 20 24 16 C30 20 36 28 36 36"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                />
+                <ellipse
+                  cx="24"
+                  cy="14"
+                  rx="5"
+                  ry="6"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M18 30 Q24 26 30 30"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h3>مساج علاجي</h3>
+            <p>الرقبة · الأكتاف · الظهر</p>
+            <ul class="service-list">
+              <li>✦ تخفيف الآلام المزمنة</li>
+              <li>✦ إرخاء العضلات المتوترة</li>
+              <li>✦ جلسات فردية ومتخصصة</li>
+            </ul>
+          </div>
+
+          <div class="service-card fade-in delay-2">
+            <div
+              class="service-icon-wrap"
+              style="--icon-color: #e8a0c0; --icon-bg: #fef0f7"
+            >
+              <svg viewBox="0 0 48 48" fill="none">
+                <path
+                  d="M24 8 C14 8 8 16 8 24 C8 34 14 40 24 40 C34 40 40 34 40 24 C40 16 34 8 24 8Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M18 22 Q24 30 30 22"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  fill="none"
+                />
+                <circle cx="20" cy="18" r="2" fill="currentColor" />
+                <circle cx="28" cy="18" r="2" fill="currentColor" />
+              </svg>
+            </div>
+            <h3>عناية بالبشرة</h3>
+            <p>شهادة من CIS College</p>
+            <ul class="service-list">
+              <li>✦ جلسات بشرة متخصصة</li>
+              <li>✦ علاجات طبيعية وفعّالة</li>
+              <li>✦ منتجات معتمدة وآمنة</li>
+            </ul>
+          </div>
+
+          <div class="service-card fade-in delay-3">
+            <div
+              class="service-icon-wrap"
+              style="--icon-color: #9ab8e0; --icon-bg: #f0f5fd"
+            >
+              <svg viewBox="0 0 48 48" fill="none">
+                <circle
+                  cx="18"
+                  cy="16"
+                  r="6"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <circle
+                  cx="30"
+                  cy="16"
+                  r="6"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M8 38 C8 30 12 26 18 26 M40 38 C40 30 36 26 30 26 M18 26 Q24 24 30 26"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h3>استشارات أسرية</h3>
+            <p>ماجستير دراسات أسرية · ليسانس علم نفس</p>
+            <ul class="service-list">
+              <li>✦ إرشاد نفسي للمرأة</li>
+              <li>✦ استشارات الحياة الزوجية</li>
+              <li>✦ دعم الصحة النفسية</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURES ===== -->
+    <section class="features" id="features">
+      <div class="features-blob"></div>
+      <div class="container">
+        <div class="section-header fade-in">
+          <p class="section-eyebrow">لماذا Nada Care</p>
+          <h2 class="section-title">مميزاتنا</h2>
+        </div>
+        <div class="features-grid">
+          <div class="feature-item fade-in">
+            <div class="feature-icon">
+              <svg viewBox="0 0 48 48" fill="none">
+                <circle
+                  cx="24"
+                  cy="24"
+                  r="20"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M16 24 L21 29 L32 18"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="feature-number">10+</div>
+            <h3>سنوات خبرة</h3>
+            <p>تجربة موثوقة وراسخة في مجال الصحة والعناية النسائية</p>
+          </div>
+          <div class="feature-item fade-in delay-1">
+            <div class="feature-icon">
+              <svg viewBox="0 0 48 48" fill="none">
+                <path
+                  d="M24 8 L28 18 H38 L30 24 L33 34 L24 28 L15 34 L18 24 L10 18 H20 Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="feature-number">100%</div>
+            <h3>نظافة وتعقيم</h3>
+            <p>بيئة معقمة بالكامل ونظافة تامة في جميع الأدوات والمعدات</p>
+          </div>
+          <div class="feature-item fade-in delay-2">
+            <div class="feature-icon">
+              <svg viewBox="0 0 48 48" fill="none">
+                <path
+                  d="M24 10 C18 10 12 16 12 22 C12 32 24 40 24 40 C24 40 36 32 36 22 C36 16 30 10 24 10Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M19 22 L23 26 L30 18"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="feature-number">✦</div>
+            <h3>أدوات آمنة</h3>
+            <p>أدوات معتمدة وذات جودة عالية لضمان سلامتكِ الكاملة</p>
+          </div>
+          <div class="feature-item fade-in delay-3">
+            <div class="feature-icon">
+              <svg viewBox="0 0 48 48" fill="none">
+                <rect
+                  x="10"
+                  y="16"
+                  width="28"
+                  height="22"
+                  rx="4"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M18 16 V12 Q18 8 24 8 Q30 8 30 12 V16"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <circle cx="24" cy="27" r="3" fill="currentColor" />
+              </svg>
+            </div>
+            <div class="feature-number">✦</div>
+            <h3>خصوصية تامة</h3>
+            <p>بيئة خاصة ومريحة مصممة خصيصاً لراحة المرأة وكرامتها</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-inner fade-in">
+          <div class="about-image-side">
+            <div class="about-img-wrap">
+              <div class="about-img-decor"></div>
+              <div class="about-initials">ن</div>
+              <div class="about-badge-float">أخصائية معتمدة</div>
+            </div>
+          </div>
+          <div class="about-text-side">
+            <p class="section-eyebrow">عن الأخصائية</p>
+            <h2>أ. ندى عبد المنعم أبو حيط</h2>
+            <p class="about-desc">
+              أخصائية متميزة في صحة المرأة والعناية الشاملة، تحمل ماجستيراً في
+              الدراسات الأسرية وليسانس علم النفس، وشهادة معتمدة في العناية
+              بالبشرة من CIS College.
+            </p>
+            <p class="about-desc">
+              بخبرة تتجاوز العشر سنوات، تقدم أ. ندى خدمات متكاملة تجمع بين الصحة
+              الجسدية والنفسية، في أجواء آمنة مليئة بالاحترام والاهتمام الشخصي.
+            </p>
+            <div class="about-credentials">
+              <div class="credential">
+                <span class="cred-icon">🎓</span>
+                <span>ماجستير دراسات أسرية</span>
+              </div>
+              <div class="credential">
+                <span class="cred-icon">🎓</span>
+                <span>ليسانس علم نفس</span>
+              </div>
+              <div class="credential">
+                <span class="cred-icon">📜</span>
+                <span>شهادة CIS College – عناية بالبشرة</span>
+              </div>
+              <div class="credential">
+                <span class="cred-icon">💆‍♀️</span>
+                <span>معتمدة في الحجامة والمساج</span>
+              </div>
+            </div>
+            <a href="#contact" class="btn btn-primary">تواصلي معي</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p class="section-eyebrow">آراء عملائنا</p>
+          <h2 class="section-title">ماذا قلن عنا</h2>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card fade-in">
+            <div class="stars">★★★★★</div>
+            <p>
+              "تجربة رائعة مع أ. ندى! الحجامة غيّرت حياتي وخففت آلام ظهري
+              تماماً. المكان نظيف ومريح والمعاملة ممتازة."
+            </p>
+            <div class="t-author">
+              <span class="t-avatar">ف</span><strong>فاطمة م.</strong>
+            </div>
+          </div>
+          <div class="testimonial-card fade-in delay-1">
+            <div class="stars">★★★★★</div>
+            <p>
+              "أفضل جلسات مساج جربتها على الإطلاق. أ. ندى محترفة جداً وتفهم
+              احتياجاتكِ. أنصح كل امرأة بتجربة خدماتها."
+            </p>
+            <div class="t-author">
+              <span class="t-avatar">س</span><strong>سارة ك.</strong>
+            </div>
+          </div>
+          <div class="testimonial-card fade-in delay-2">
+            <div class="stars">★★★★★</div>
+            <p>
+              "الاستشارات الأسرية كانت نقطة تحوّل في حياتي. أ. ندى تستمع باهتمام
+              وتقدم حلولاً عملية. شكراً من القلب."
+            </p>
+            <div class="t-author">
+              <span class="t-avatar">ر</span><strong>ريم ع.</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-inner fade-in">
+          <div class="contact-text">
+            <p class="section-eyebrow">تواصلي معنا</p>
+            <h2>احجزي موعدكِ الآن</h2>
+            <p>
+              نحن هنا لمساعدتكِ في رحلتكِ الصحية. تواصلي معنا عبر واتساب أو
+              المكالمة لحجز موعدكِ.
+            </p>
+            <div class="contact-info">
+              <a href="tel:79183766" class="contact-item">
+                <span class="contact-icon">📞</span>
+                <div>
+                  <small>اتصلي بنا</small>
+                  <strong dir="ltr">79183766</strong>
+                </div>
+              </a>
+              <a
+                href="https://wa.me/96179183766"
+                target="_blank"
+                class="contact-item"
+              >
+                <span class="contact-icon">💬</span>
+                <div>
+                  <small>واتساب</small>
+                  <strong>ابدئي المحادثة</strong>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="contact-cta-box">
+            <div class="cta-decor">✦</div>
+            <h3>جاهزة للبدء؟</h3>
+            <p>احجزي جلستكِ الأولى واختبري الفرق مع Nada Care</p>
+            <a
+              href="https://wa.me/96179183766"
+              target="_blank"
+              class="btn btn-primary btn-lg"
+            >
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+                />
+              </svg>
+              احجزي عبر واتساب
+            </a>
+            <a href="tel:79183766" class="btn btn-outline-dark">
+              اتصلي الآن: 79183766
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-brand">
+            <p class="footer-logo">
+              <span class="logo-mark">✦</span> Nada Care
+            </p>
+            <p class="footer-tagline">عناية صحية متكاملة للنساء</p>
+            <p class="footer-sub">أ. ندى عبد المنعم أبو حيط</p>
+          </div>
+          <div class="footer-links">
+            <h4>روابط سريعة</h4>
+            <ul>
+              <li><a href="#services">خدماتنا</a></li>
+              <li><a href="#features">مميزاتنا</a></li>
+              <li><a href="#about">عن الأخصائية</a></li>
+              <li><a href="#contact">تواصلي معنا</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4>تواصلي معنا</h4>
+            <p>📞 <a href="tel:79183766">79183766</a></p>
+            <p>
+              💬 <a href="https://wa.me/96179183766" target="_blank">واتساب</a>
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="إنستغرام">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="social-link" aria-label="فيسبوك">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="social-link" aria-label="تيك توك">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.31 6.31 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.75a4.85 4.85 0 01-1.02-.06z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            © 2024 Nada Care · جميع الحقوق محفوظة · أ. ندى عبد المنعم أبو حيط
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp FAB -->
+    <a
+      href="https://wa.me/96179183766"
+      target="_blank"
+      class="whatsapp-fab"
+      aria-label="واتساب"
+    >
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+        />
+      </svg>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
